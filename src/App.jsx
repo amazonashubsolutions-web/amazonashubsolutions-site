@@ -1,3 +1,4 @@
+import FloatingWhatsAppButton from "./components/common/FloatingWhatsAppButton";
 import SiteHeader from "./components/layout/SiteHeader";
 import SiteFooter from "./components/layout/SiteFooter";
 import AboutSection from "./components/sections/AboutSection";
@@ -37,6 +38,7 @@ export default function App() {
         <FinalCtaSection content={finalCta} />
       </main>
       <SiteFooter content={footer} />
+      <FloatingWhatsAppButton href={hero.secondaryActionHref} />
     </div>
   );
 }
