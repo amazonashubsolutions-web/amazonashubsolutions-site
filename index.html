@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AMAZONAS HUB SOLUTIONS | Solucoes Digitais Inteligentes</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#000000",
+              "primary-light": "#1a1a1a",
+              "accent-cyan": "#ffffff",
+              "accent-yellow": "#ffffff",
+              "on-primary": "#ffffff",
+              background: "#ffffff",
+              surface: "#131313",
+              "surface-dark": "#000000",
+              "on-background": "#000000",
+              "on-surface-variant": "#4b5563",
+              "secondary-container": "#f3f4f6",
+              "on-secondary-container": "#000000",
+              "outline-variant": "#e5e7eb",
+              error: "#000000",
+              "surface-dim": "#131313",
+              "surface-container-low": "#1b1b1b"
+            },
+            borderRadius: {
+              DEFAULT: "0.25rem",
+              lg: "0.5rem",
+              xl: "0.75rem",
+              full: "9999px"
+            },
+            spacing: {
+              container_max: "1280px",
+              gutter: "24px",
+              md: "24px",
+              sm: "12px",
+              base: "8px",
+              xs: "4px",
+              xl: "80px",
+              lg: "48px"
+            },
+            fontFamily: {
+              h3: ["Manrope"],
+              h2: ["Manrope"],
+              "body-lg": ["Inter"],
+              "body-sm": ["Inter"],
+              label: ["Inter"],
+              h4: ["Manrope"],
+              button: ["Inter"],
+              "body-md": ["Inter"],
+              h1: ["Manrope"]
+            },
+            fontSize: {
+              h3: ["24px", { lineHeight: "1.3", fontWeight: "600" }],
+              h2: ["36px", { lineHeight: "1.2", letterSpacing: "-0.01em", fontWeight: "700" }],
+              "body-lg": ["18px", { lineHeight: "1.6", fontWeight: "400" }],
+              "body-sm": ["14px", { lineHeight: "1.5", fontWeight: "400" }],
+              label: ["12px", { lineHeight: "1", letterSpacing: "0.05em", fontWeight: "600" }],
+              h4: ["20px", { lineHeight: "1.4", fontWeight: "600" }],
+              button: ["16px", { lineHeight: "1", fontWeight: "600" }],
+              "body-md": ["16px", { lineHeight: "1.6", fontWeight: "400" }],
+              h1: ["48px", { lineHeight: "1.2", letterSpacing: "-0.02em", fontWeight: "700" }]
+            }
+          }
+        }
+      };
+    </script>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-background text-on-background font-body-md overflow-x-hidden">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
