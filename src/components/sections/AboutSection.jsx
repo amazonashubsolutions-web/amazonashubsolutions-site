@@ -57,6 +57,7 @@ export default function AboutSection({ content }) {
           </div>
 
           <div className="flex h-full flex-col justify-center space-y-5 text-zinc-600">
+            <h2 className="font-h2 text-h2 text-black">AMAZONAS HUB SOLUTIONS</h2>
             {content.paragraphs.slice(0, 2).map((paragraph) => (
               <p key={paragraph} className="text-base leading-8">
                 {paragraph}
