@@ -280,7 +280,7 @@ export const siteContent = {
         value: "Av. da Amizade, 840-954\nCep 69640-000\nTabatinga - AM - Brasil",
       },
     ],
-    copyright: "2024 AMAZONAS HUB SOLUTIONS. Todos os direitos reservados.",
+    copyright: "2026 AMAZONAS HUB SOLUTIONS. Todos os direitos reservados.",
     signature: "Feito por Amazonas Hub Team",
   },
 };
