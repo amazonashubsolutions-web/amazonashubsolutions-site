@@ -25,8 +25,10 @@ export default function HeroSection({ content }) {
               <IconSymbol name="arrow_forward" />
             </a>
             <a
-              href="#contact"
+              href={content.secondaryActionHref || "#contact"}
               className="flex items-center gap-2 border border-zinc-700 bg-transparent px-8 py-4 font-button text-white transition-all hover:bg-zinc-900"
+              target={content.secondaryActionHref ? "_blank" : undefined}
+              rel={content.secondaryActionHref ? "noreferrer" : undefined}
             >
               <IconSymbol name="chat" />
               {content.secondaryAction}

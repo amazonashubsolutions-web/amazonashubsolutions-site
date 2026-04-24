@@ -21,6 +21,7 @@ export const siteContent = {
     backgroundImage: "/images/fondo negro/3.jpg",
     primaryAction: "Solicitar Orcamento",
     secondaryAction: "Falar no WhatsApp",
+    secondaryActionHref: "https://wa.me/573204903001",
     image: "/images/imagen pagina buscador de  LDS.png",
   },
   about: {
@@ -248,8 +249,8 @@ export const siteContent = {
     description:
       "Impulsionamos empresas com tecnologia de ponta e solucoes digitais sob medida. Sua visao, nossa execucao.",
     social: [
-      { icon: "share", href: "#" },
-      { icon: "alternate_email", href: "#" },
+      { icon: "alternate_email", href: "mailto:ed_ramirez470@hotmail.com" },
+      { icon: "chat", href: "https://wa.me/573204903001" },
     ],
     quickLinks: [
       { label: "Inicio", href: "#home" },
