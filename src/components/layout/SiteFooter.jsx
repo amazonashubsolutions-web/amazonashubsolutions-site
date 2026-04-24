@@ -6,7 +6,6 @@ export default function SiteFooter({ content }) {
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-16 md:grid-cols-4">
         <div className="md:col-span-2">
           <div className="mb-8 flex items-center gap-3">
-            <img alt={`${content.brand.name} logo`} className="h-10 w-auto invert" src={content.brand.logo} />
             <span className="font-h3 text-2xl font-black uppercase tracking-[0.2em] text-white">
               {content.brand.name}
             </span>
