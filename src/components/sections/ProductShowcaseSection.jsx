@@ -155,7 +155,7 @@ export default function ProductShowcaseSection({ product }) {
   return (
     <section
       id={product.sectionId}
-      className={`relative overflow-hidden px-6 py-16 ${sectionClasses}`.trim()}
+      className={`relative scroll-mt-28 overflow-hidden px-6 py-16 md:scroll-mt-36 ${sectionClasses}`.trim()}
     >
       {product.backgroundImage ? (
         <div

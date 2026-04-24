@@ -26,7 +26,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-white text-black">
       <SiteHeader brand={navigation.brand} links={navigation.links} cta={navigation.cta} />
-      <main className="pt-24 md:pt-28">
+      <main>
         <HeroSection content={hero} />
         <AboutSection content={about} />
         <ServicesSection content={services} />

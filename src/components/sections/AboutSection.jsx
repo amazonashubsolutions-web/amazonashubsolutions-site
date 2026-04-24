@@ -29,7 +29,7 @@ export default function AboutSection({ content }) {
   ];
 
   return (
-    <section id={content.sectionId} className="bg-white px-6 py-16 text-black">
+    <section id={content.sectionId} className="scroll-mt-28 bg-white px-6 py-16 text-black md:scroll-mt-36">
       <div className="mx-auto max-w-7xl">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-[0.95fr_1.05fr] lg:items-stretch">
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:h-full">

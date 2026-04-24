@@ -6,7 +6,7 @@ export default function SiteHeader({ brand, links, cta }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 z-50 w-full nav-glass">
+    <header className="sticky top-0 z-50 w-full nav-glass">
       <div className="mx-auto flex max-w-7xl items-center justify-between overflow-visible px-6 py-4">
         <a
           href="#home"

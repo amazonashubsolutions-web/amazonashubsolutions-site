@@ -21,7 +21,7 @@ export default function TechStackSection({ content }) {
   ];
 
   return (
-    <section id={content.sectionId} className="overflow-hidden bg-white px-6 py-16">
+    <section id={content.sectionId} className="scroll-mt-28 overflow-hidden bg-white px-6 py-16 md:scroll-mt-36">
       <div className="mx-auto max-w-7xl">
         <div className="mb-10 text-center">
           <h2 className="font-h2 text-h2 text-black">{content.title}</h2>

@@ -1,6 +1,6 @@
 export default function FinalCtaSection({ content }) {
   return (
-    <section id={content.sectionId} className="bg-white px-6 py-14">
+    <section id={content.sectionId} className="scroll-mt-28 bg-white px-6 py-14 md:scroll-mt-36">
       <div className="mx-auto grid max-w-6xl gap-10 border-2 border-black bg-white p-8 shadow-[18px_18px_0_rgba(0,0,0,0.08)] lg:grid-cols-[0.95fr_1.05fr] lg:p-12">
         <div className="flex flex-col justify-between gap-8">
           <div>

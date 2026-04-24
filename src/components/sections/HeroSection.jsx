@@ -2,7 +2,7 @@ import IconSymbol from "../common/IconSymbol";
 
 export default function HeroSection({ content }) {
   return (
-    <section id="home" className="relative overflow-hidden bg-black px-6 pb-16 pt-24 text-white">
+    <section id="home" className="relative scroll-mt-28 overflow-hidden bg-black px-6 pb-16 pt-24 text-white md:scroll-mt-36">
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url("${content.backgroundImage}")` }}
