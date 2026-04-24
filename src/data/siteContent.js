@@ -277,7 +277,15 @@ export const siteContent = {
       },
       {
         label: "Endereco",
-        value: "Av. da Amizade, 840-954\nCep 69640-000\nTabatinga - AM - Brasil",
+        value: "R. Duarte Coelho, 779",
+      },
+      {
+        label: "Cep",
+        value: "69640-000",
+      },
+      {
+        label: "Cidade",
+        value: "Tabatinga - AM - Brasil",
       },
     ],
     copyright: "2026 AMAZONAS HUB SOLUTIONS. Todos os direitos reservados.",
